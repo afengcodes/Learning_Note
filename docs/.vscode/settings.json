@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "queue": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "xlocmon": "cpp",
+        "xtr1common": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "deque": "cpp",
+        "initializer_list": "cpp",
+        "list": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp",
+        "utility": "cpp",
+        "cstdio": "cpp",
+        "xiosbase": "cpp",
+        "ostream": "cpp",
+        "istream": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "xlocnum": "cpp",
+        "xloctime": "cpp"
+    }
+}
