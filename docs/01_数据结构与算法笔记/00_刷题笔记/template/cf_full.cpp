@@ -1,10 +1,14 @@
 //  cf-full mode
 
+
 /*  _author : afengcode
     _method : 
     _note   : 
     _ref    : 
 */
+
+// mbcf  
+
 
 // #include <bits/stdc++.h>
 #include <cstdio>    
@@ -78,6 +82,8 @@ template<typename T>
 void __print(const T& x) { int f = 0; cout << '{'; for (auto& i : x) cout << (f++ ? ", " : ""), __print(i); cout << "}"; }
 template<typename T>
 void printn(const T& x, int l, int r) { for (int i = l; i <= r; ++i) cout << (i != l ? " " : ""), __print(x[i]); cout << endl; }
+template<typename T>
+void printnn(const T& x, int l, int r) { for (int i = l; i <= r; ++i) { __print(x[i]); cout << endl; } cout << endl; }
 void print() { cout << endl; }
 template <typename T, typename... V>
 void _print(T t, V... v) { __print(t); if (sizeof...(v)) cout << ", "; _print(v...); }
@@ -88,12 +94,14 @@ template <typename T>
 ostream& operator <<(ostream& out, const vector<T>& a) {	out << "["; bool first = true;   	for (auto v : a) { out << (first ? "" : ", "); out << v; first = 0; } out << "]";  	return out;    }
 
 const int mod = 1e9 + 7, inf = 0x3f3f3f3f;
+void addx(int& x, int y) {
+    if ((x += y) >= mod) x -= mod;
+}
 const LL l_inf = 1e18;
 const double eps = 1e-6;
 int dx[4] = {1, 0, -1, 0}, dy[4] = {0, 1, 0, -1};
 
-const int N = 2e5 + 10;
-
+const int N = 100010, M = N * 2;
 
 inline void SOLVE(){
     

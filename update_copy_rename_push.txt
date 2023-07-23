@@ -1,0 +1,6 @@
+1.拷贝_book后改名docs
+2.git status
+git add .
+git commit -m ""
+git push
+3.之后就会上传到github上。
